@@ -1,0 +1,12 @@
+# Vercel ignore file - ensure contexts folder is NOT ignored
+node_modules
+.next
+.git
+.env.local
+.DS_Store
+*.log
+
+# Do NOT ignore these - they are required for build
+# contexts/
+# lib/
+# components/
